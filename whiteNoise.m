@@ -22,7 +22,7 @@ title("white noise of normalized distribution");
 y2 = filter(0.1, [1 -0.95], noise2);
 figure();
 plot(noise2, 'r');
-hol
+hold on;
 plot(y2, 'b');
 
 %% colored noise sequence 
